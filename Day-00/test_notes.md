@@ -85,6 +85,13 @@ git push
 - Repository successfully connected
 
 ---
+## What is an IDE :
+
+    IDE stands for Integrated Development Environment. 
+
+    It is nothing more than an enhanced version of a text editor that helps you write more efficient and nicer code. 
+
+    It helps to differentiate different parts of your codes with different colors and notifies you if you are missing some semicolon or bracket at some place by highlighting that area.
 
 ## Summary:
 
