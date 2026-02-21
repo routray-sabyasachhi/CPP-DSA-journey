@@ -64,14 +64,15 @@ Compiled using:(command prompt)
 g++ test_repository.cpp
 
 Ran using:
-a.exe
+a.exe   (command prompt)
+.\a.exe (powershell)
 
 ---
 
 ## Step 5: First Push
 
 Commands used:
-git add .
+git add .    // git add : prepare file for saving  and . : add everything if we want to add specific file then // git add filename
 git commit -m "Day 00 setup completed"
 git push
 

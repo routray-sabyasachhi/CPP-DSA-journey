@@ -12,5 +12,7 @@ This day's concepts were learned and revised using the following resources :
 * W3schools - C++ Tutorials
 * CodeWithHarry - C++ tutorials
 * GeeksforGeeks
+* https://en.cppreference.com/w/cpp.html
+
 
 All implementations and notes in this repository are written by me as part of my structured DSA learning Journey.
