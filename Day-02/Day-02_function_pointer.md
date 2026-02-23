@@ -5,25 +5,25 @@ Date: 22 February 2026
 ## Objective: (functions)
 ------------------------------------------------
 1> Introduction
-     a> pros
-     b> Aspects of functions (Declaration, Defination, call)
-     c> function prototype in c++
+     a> pros,
+     b> Aspects of functions (Declaration, Defination, call),
+     c> function prototype in c++,
      d> Types of function (Library, user-defined)
 2> Function parameter
-     a> actual parameter
+     a> actual parameter,
      b> formal parameter
 3> Methods
-     a> Call by value
-     b> call by reference (c and c++ supports but java not)
-     c> default argument in c++
+     a> Call by value,
+     b> call by reference (c and c++ supports but java not),
+     c> default argument in c++,
      d> constant argument in c++
 4> Rrcursion
      a> base condition (it means recursion should be terminated)
 5> Function overloading
      a> same function name but diffrent parameter
 6> pointer
-     a> introduction
-     b> application
+     a> introduction,
+     b> application,
      c> operators on pointer ( &, * )
 
 ------------------------------------------------
