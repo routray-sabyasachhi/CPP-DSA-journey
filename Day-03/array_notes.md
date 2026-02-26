@@ -9,6 +9,7 @@ Date: 23 February 2026
     4> Out-of-Bound Access in c++
     5> Types of array declaration (fixed-sized array, Dynamic-sized array)
     6> Array traversal (using normal loop , Range-based for loop)
+    7> problem solving (Basics)
 
 
 
