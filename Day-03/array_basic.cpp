@@ -25,10 +25,19 @@ for( int x :ex2){
  delete []ex1; // manually delete array
 
 
+int arr[5] = {1,2,3,4,5};
+for (int &x : arr ){
+  x+= 2; // this will change the value of array element as x is reference to array element
+  }
 
+  for (int x : arr){
+    cout << x << " " ; // Output: 3 4 5 6 7
+  }
 
-
-
+ string ar[] = {"GFG", "C++ Course", "learning"};
+    for (const string &s : ar) { // 's' is a const reference
+        cout << s << "\n";
+    }
 
 
 
