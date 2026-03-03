@@ -11,7 +11,8 @@ Date: 1 March 2026
   6> NULL pointer
   7> Application of NULL in c++
   8> pointer arithmetic
-  9> Questions
+  9> Dynamic memory allocation
+  10> Questions
 
 
 ////////////////////////////////////////////////////////
@@ -105,3 +106,29 @@ pointer key operations include:
     but, in terms of the size of the data type the pointer is pointing to.
 
 ( ptr + 3 ) :=>  Adress(ptr) + 3 * (sizeof integer)
+
+## 9-> Dynamic memory allocation
+Dynamically allocated memory is allocated on Heap, and non-static and local variables get memory allocated on Stack.
+
+# It allows programmer to :
+1> Allocate memory to runtime on the heap
+2> Deallocate memory when it's no longer needed.
+
+This allocation is useful when the required memory size can't be determined during compile time
+
+# function for dynamic allocation
+1> new : Allocates memory in c++
+2> delete : Deallocates memory in c++
+3> malloc and calloc : Legacy C-style functions used for memory allocation
+
+new :=
+------------
+pointer_variable = new data-type;
+
+and by initialize
+pointer-variable = new data-type (value); 
+
+Allocate a block of memory:
+pointer_variable = new data_type[size];
+ // size specifies the number of elements in an array
+ 
