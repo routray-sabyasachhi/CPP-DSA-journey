@@ -40,3 +40,7 @@ Strings differ from standard arrays (like integer or floating-point arrays) in a
 # Commonly used functions in C 
 header file  ( #incluse <string.h> )
 1> strlen : Calculate the length of the string by counting characters untill it encounters \0.
+
+NOTE :
+-> strlen ignores the null character while calculating the length.
+-> If the null terminator is missing, strlen may traverse unintended memory, causing incorrect results or runtime errors.
