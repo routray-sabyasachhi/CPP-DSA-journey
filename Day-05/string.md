@@ -16,6 +16,12 @@ Date: 7 March 2026
            i) length() 
            ii) substr()
            iii) find()
+     7> string comparison (lexicographically)
+           i) == : Checks if two strings are equal.
+           ii) < : Checks if one string is lexicographically smaller.
+           iii) > : Checks if one string is lexicographically greater.
+           iv) <=, >= : Additional comparison options.
+     8> Reading a string with space
 
 
 ///////////////////////////////////////////////////////
@@ -89,4 +95,11 @@ The C++ string class (std::string) is part of the Standard Template Library (STL
  # substr(start_index, length)
     get the substring here lenth part is optional
  # find("string")
-    find a substring
+    find a substring and it return the first index of the first occurance.
+
+## 8> Reading a string with space
+ NOTE : The cin and readline() functions are the two primary methods for reading strings.
+
+ # cin :
+ -> it the simplestway to read a string from the console. But, it stops reading input at the first white space character(i.e. space, newline or tab), which can be a limitation when dealing with multi-word strings.
+ 
