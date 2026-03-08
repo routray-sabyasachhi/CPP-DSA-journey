@@ -10,6 +10,12 @@ Date: 7 March 2026
               a) Defination
               b) Types of Initialization
               c) commonly used function in C
+     4> String class in c++
+     5> Pros of C++ strings
+     6> String operations
+           i) length() 
+           ii) substr()
+           iii) find()
 
 
 ///////////////////////////////////////////////////////
@@ -44,3 +50,43 @@ header file  ( #incluse <string.h> )
 NOTE :
 -> strlen ignores the null character while calculating the length.
 -> If the null terminator is missing, strlen may traverse unintended memory, causing incorrect results or runtime errors.
+
+2> strcmp (string comparison) :
+
+NOTE :
+-> The strcmp function compares two strings lexicographically:
+-> Returns 0 if both strings are equal.
+-> Returns a negative value if the first string is smaller.
+-> Returns a positive value if the first string is greater.
+
+3> strcpy( string copy):
+The strcpy function copies the content of one string to another.
+
+NOTE :
+-> strcpy copies characters, including the null terminator, from the source to the destination.
+-> Ensure the destination array has enough space to hold the source string and the null terminator.
+
+## string class in C++
+The C++ string class (std::string) is part of the Standard Template Library (STL) and offers significant advantages over C-style strings. It eliminates many of the limitations and challenges associated with character arrays.
+
+# Dynamic size management :
+ std::string automatically manages memory, so no need to predefine size.
+# Rich Operator support :
+ Supports operators like +, <, >, <=, >= for concatenation and comparison.
+# Iterator support :
+ Provides begin() and end() iterators for use with STL algorithms.
+# Easy Assignments
+ String can be declared empty and assigned later.
+# C-style conversion :
+ c_str() converts a C++ string into a C-style string. 
+
+ ## 6> String operations
+
+ # length() : 
+     find the length of the string excluding null terminator('\0').
+ # concatinate by +
+   concatinate two strings and "std::string" automatically handles memory allocation and resizing
+ # substr(start_index, length)
+    get the substring here lenth part is optional
+ # find("string")
+    find a substring
