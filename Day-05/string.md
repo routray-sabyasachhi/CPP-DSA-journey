@@ -23,6 +23,8 @@ Date: 7 March 2026
            iv) <=, >= : Additional comparison options.
      8> Reading a string with space
      9> String traversal
+     10> string reversal
+     11> string palindrome
 
 
 ///////////////////////////////////////////////////////
