@@ -103,4 +103,8 @@ The C++ string class (std::string) is part of the Standard Template Library (STL
  # cin :
  -> it the simplestway to read a string from the console. But, it stops reading input at the first white space character(i.e. space, newline or tab), which can be a limitation when dealing with multi-word strings.
  
- 
+ # getline() to Read strings
+ -> The getline() function provides a more robust way to read strings, It reads input untill it encounters a newline character('\n') or a specified delimeter.
+
+# Using getline() with a custom Delimeter
+-> The getline() function also allows you to specify a custom delimiter instead of the default newline character. This can be useful when reading data formatted with specific delimiters, such as commas or dollar signs.
