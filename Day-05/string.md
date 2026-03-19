@@ -1,4 +1,4 @@
-# Day 04 – string
+# Day 05 – string
 
 Date: 7 March 2026
 
@@ -22,6 +22,7 @@ Date: 7 March 2026
            iii) > : Checks if one string is lexicographically greater.
            iv) <=, >= : Additional comparison options.
      8> Reading a string with space
+     9> String traversal
 
 
 ///////////////////////////////////////////////////////
@@ -108,3 +109,17 @@ The C++ string class (std::string) is part of the Standard Template Library (STL
 
 # Using getline() with a custom Delimeter
 -> The getline() function also allows you to specify a custom delimiter instead of the default newline character. This can be useful when reading data formatted with specific delimiters, such as commas or dollar signs.
+
+## String traversal
+problem : string_traversal.cpp
+ i> Using range-based
+ ii> Using iterators
+ iii> Traversing using indices
+
+NOTE :
+  str.length() // provides the length of the string
+
+  str::string class supports STL iterators
+  -------------------------------------------
+  str.begin() returns an iterator pointing to the first character.
+  str.end() returns an iterator pointing past the last character.
