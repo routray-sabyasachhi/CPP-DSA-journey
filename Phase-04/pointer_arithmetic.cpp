@@ -1,5 +1,5 @@
 
-// pointer.md (8, )
+// pointer arithmetic
 
 #include<iostream>
 using namespace std; 

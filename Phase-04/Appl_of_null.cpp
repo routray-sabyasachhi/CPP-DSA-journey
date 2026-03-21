@@ -1,5 +1,5 @@
 
-// pointer.md (6, 7)
+// application of NULL pointer
 
 #include<iostream>
 using namespace std;
